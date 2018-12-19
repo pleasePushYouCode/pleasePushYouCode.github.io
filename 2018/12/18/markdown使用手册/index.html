@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="makedown,">
 
 
 
@@ -80,6 +80,7 @@
 
 
 <meta name="description" content="为了写这个博客对markdown先做了一个简单学习，作为第一篇博客吧~^_^ 标题在想要设置的文字前面加上一个“#”即可，#越多表示标题级别越小 效果如下： 二级标题三级标题四级标题字体效果和语法如下： 斜体 &amp;nbsp;* 斜体 * 加粗 &amp;nbsp;** 加粗 ** 斜体加粗 &amp;nbsp;*** 斜体加粗 *** 图片![显示的图片名]（图片地址 “图片名”）效果如下： 超链接[超链接名]（超">
+<meta name="keywords" content="makedown">
 <meta property="og:type" content="article">
 <meta property="og:title" content="markdown命令学习">
 <meta property="og:url" content="http://yoursite.com/2018/12/18/markdown使用手册/index.html">
@@ -87,7 +88,7 @@
 <meta property="og:description" content="为了写这个博客对markdown先做了一个简单学习，作为第一篇博客吧~^_^ 标题在想要设置的文字前面加上一个“#”即可，#越多表示标题级别越小 效果如下： 二级标题三级标题四级标题字体效果和语法如下： 斜体 &amp;nbsp;* 斜体 * 加粗 &amp;nbsp;** 加粗 ** 斜体加粗 &amp;nbsp;*** 斜体加粗 *** 图片![显示的图片名]（图片地址 “图片名”）效果如下： 超链接[超链接名]（超">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://yoursite.com/2018/12/18/markdown使用手册/lufei.jpg">
-<meta property="og:updated_time" content="2018-12-18T15:08:48.953Z">
+<meta property="og:updated_time" content="2018-12-19T04:54:39.294Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="markdown命令学习">
 <meta name="twitter:description" content="为了写这个博客对markdown先做了一个简单学习，作为第一篇博客吧~^_^ 标题在想要设置的文字前面加上一个“#”即可，#越多表示标题级别越小 效果如下： 二级标题三级标题四级标题字体效果和语法如下： 斜体 &amp;nbsp;* 斜体 * 加粗 &amp;nbsp;** 加粗 ** 斜体加粗 &amp;nbsp;*** 斜体加粗 *** 图片![显示的图片名]（图片地址 “图片名”）效果如下： 超链接[超链接名]（超">
@@ -274,6 +275,28 @@
           </span>
 
           
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/乱七八糟的内容/" itemprop="url" rel="index">
+                    <span itemprop="name">乱七八糟的内容</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -320,7 +343,10 @@
 <h3 id="关于markdownPad和hexo的格式不一样问题"><a href="#关于markdownPad和hexo的格式不一样问题" class="headerlink" title="关于markdownPad和hexo的格式不一样问题"></a>关于markdownPad和hexo的格式不一样问题</h3><p>在实际使用过程中发现在本地MarkdownPad调整好的html显示在网页上没法用，经过实际测试，标题的#后面需要多加一个空格才能用，其他的暂时没发现，后续会在这里进行补充</p>
 <h3 id="如何将自己写的东西放到博客上"><a href="#如何将自己写的东西放到博客上" class="headerlink" title="如何将自己写的东西放到博客上"></a>如何将自己写的东西放到博客上</h3><p>就是将写好的md文件刚到博客的source/_posts路径下，并在头上面添加<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: markdown命令学习</span><br><span class="line">date: 2018-12-18 18:04:39</span><br><span class="line">tags:</span><br><span class="line">---</span><br></pre></td></tr></table></figure></p>
 <p>也可以按照指南上说的，直接用 hexo n “博客名” 来创建。</p>
-<h3 id="一些常用的hexo命令"><a href="#一些常用的hexo命令" class="headerlink" title="一些常用的hexo命令"></a>一些常用的hexo命令</h3><p>hexo d -g 将本地的推送到公网<br>hexo n “博客名” 创建一篇博客<br>在hexo上添加标签和分类 明天补充，看<a href="https://www.jianshu.com/p/e17711e44e00" target="_blank" rel="noopener">这里</a></p>
+<h3 id="一些常用的hexo命令"><a href="#一些常用的hexo命令" class="headerlink" title="一些常用的hexo命令"></a>一些常用的hexo命令</h3><p>hexo d -g 将本地的推送到公网<br>hexo n “博客名” 创建一篇博客<br>在hexo上添加标签和分类 明天补充，看<a href="https://www.jianshu.com/p/e17711e44e00" target="_blank" rel="noopener">这里</a><br>添加分类时，需要在博客路径下执行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure></p>
+<p>然后在生成的…/blog/source/categories/index.md中的date标签下面添加type: “categories”字段，之后在文章中添加相对应的分类就会单独显示<br><br><br>而需要对文章打标签时，我们执行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure></p>
+<p>之后在…/blog/source/tags/index.md中添加type: “tags”字段<br>之后按照表单格式打标签即可</p>
+<p>hexo s 开启本地服务</p>
 
       
     </div>
@@ -335,6 +361,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/makedown/" rel="tag"># makedown</a>
+          
+        </div>
       
 
       
@@ -421,7 +453,25 @@
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                <a href="/categories/index.html">
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">分类</span>
+                </a>
+              </div>
+            
 
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
             
 
           </nav>
